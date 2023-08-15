@@ -16,8 +16,8 @@ To set up the project, follow these steps:
 1. Clone the repository:
 
 ```bash
-  git clone https://github.com/WilferCiro/sales_frontend.git
-  cd sales_frontend
+  git https://github.com/WilferCiro/IoT_frontEnd.git
+  cd IoT_frontEnd
 ```
 
 2. Install the dependencies:
@@ -32,7 +32,6 @@ To set up the project, follow these steps:
 
 ```bash
 API_DASHBOARD_URL=http://localhost:5000
-API_SALES_URL=http://localhost:5001
 ```
 
 To start the development server, use the following command:
@@ -67,6 +66,5 @@ For any questions or inquiries, please contact [wilcirom@gmail.com](mailto:wilci
 
 ## All repositories for this project:
 
-- [Sales backend](https://github.com/WilferCiro/sales_backend.git)
-- [Sales dashboard backend](https://github.com/WilferCiro/sales_dashboard_backend.git)
-- [Sales frontend](https://github.com/WilferCiro/sales_frontend.git)
+- [IoT backend](https://github.com/WilferCiro/IoT_backend)
+- [IoT microcontroller](https://github.com/WilferCiro/IoT_microcontroller)

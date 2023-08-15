@@ -1,0 +1,21 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 10fr;
+  gap: 30px;
+}
+
+.alerts_container {
+  display: flex;
+  gap: 15px;
+  flex-direction: row-reverse;
+}
+
+@media (max-width: 767px) {
+  .alerts_container {
+    display: block;
+  }
+  .container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}

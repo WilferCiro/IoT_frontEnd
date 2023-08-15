@@ -1,5 +1,5 @@
 "use client";
-import { IconBrandNextjs } from "@tabler/icons-react";
+import { IconBrandNextjs, IconDeviceSim } from "@tabler/icons-react";
 import BlogCard from "../../molecules/BlogCard";
 import FileIconsNestjs from "../../atoms/icons/FileIconsNestjs";
 
@@ -15,11 +15,19 @@ interface SourceInterface {
 
 const sourceCode: SourceInterface[] = [
   {
+    title: "Microcontroller",
+    technologies: ["C++", "Esp32", "MQTT"],
+    description:
+      "Código fuente para manipular el hardware del proyecto IoT",
+    repository: "https://github.com/WilferCiro/IoT_microcontroller",
+    icon: <IconDeviceSim size={"2em"} />,
+  },
+  {
     title: "Front end",
     technologies: ["Nextjs v13", "Mantine", "React query"],
     description:
       "Backoffice creado para gestionar todos los datos de la aplicación, utiliza SSR",
-    repository: "https://github.com/WilferCiro/sales_frontend.git",
+    repository: "https://github.com/WilferCiro/IoT_frontEnd",
     icon: <IconBrandNextjs size={"2em"} />,
   },
   {
@@ -27,7 +35,7 @@ const sourceCode: SourceInterface[] = [
     technologies: ["Nestjs", "Hexagonal", "Postgresql"],
     description:
       "Backend creado para la gestión de toda la información del backoffice",
-    repository: "https://github.com/WilferCiro/sales_dashboard_backend.git",
+    repository: "https://github.com/WilferCiro/IoT_backend",
     icon: <FileIconsNestjs fontSize={"2em"} />,
   },
 ];
